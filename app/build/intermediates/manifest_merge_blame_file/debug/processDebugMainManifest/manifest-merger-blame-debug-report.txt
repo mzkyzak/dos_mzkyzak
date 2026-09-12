@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mzkyzak.ddospro"
+4    android:versionCode="1"
+5    android:versionName="3.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:5:5-77
+12-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+13-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:6:5-87
+13-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:6:22-84
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:7:5-68
+14-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:7:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:8:5-79
+15-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:9:5-77
+16-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:9:22-74
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:10:5-66
+17-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:10:22-63
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\729a212c78e59069bfc70877f17893dc\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.mzkyzak.ddospro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\729a212c78e59069bfc70877f17893dc\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\729a212c78e59069bfc70877f17893dc\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.mzkyzak.ddospro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\729a212c78e59069bfc70877f17893dc\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\729a212c78e59069bfc70877f17893dc\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:12:5-58:19
+26        android:allowBackup="true"
+26-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.9.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\729a212c78e59069bfc70877f17893dc\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:label="🔥 DDoS Pro"
+30-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:14:9-36
+31        android:testOnly="true"
+32        android:theme="@style/Theme.SentinelFlow"
+32-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:15:9-50
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:16:9-44
+34        <activity
+34-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:18:9-26:20
+35            android:name="com.mzkyzak.ddospro.MainActivity"
+35-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:19:13-60
+36            android:exported="true"
+36-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:20:13-36
+37            android:screenOrientation="portrait" >
+37-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:21:13-49
+38            <intent-filter>
+38-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:22:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:23:17-69
+39-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:23:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:24:17-77
+41-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <service
+45-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:28:9-32:56
+46            android:name="com.mzkyzak.ddospro.AttackService"
+46-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:29:13-61
+47            android:enabled="true"
+47-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:30:13-35
+48            android:exported="false"
+48-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:31:13-37
+49            android:foregroundServiceType="dataSync" />
+49-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:32:13-53
+50        <service
+50-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:34:9-38:56
+51            android:name="com.mzkyzak.ddospro.LocalSaturationService"
+51-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:35:13-70
+52            android:enabled="true"
+52-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:36:13-35
+53            android:exported="false"
+53-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:37:13-37
+54            android:foregroundServiceType="dataSync" />
+54-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:38:13-53
+55        <service
+55-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:40:9-44:56
+56            android:name="com.mzkyzak.ddospro.LocalStressService"
+56-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:41:13-66
+57            android:enabled="true"
+57-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:42:13-35
+58            android:exported="false"
+58-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:43:13-37
+59            android:foregroundServiceType="dataSync" />
+59-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:44:13-53
+60        <service
+60-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:46:9-50:56
+61            android:name="com.mzkyzak.ddospro.NetworkStressService"
+61-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:47:13-68
+62            android:enabled="true"
+62-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:48:13-35
+63            android:exported="false"
+63-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:49:13-37
+64            android:foregroundServiceType="dataSync" />
+64-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:50:13-53
+65        <service
+65-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:52:9-56:56
+66            android:name="com.mzkyzak.ddospro.MHDDoSBridgeService"
+66-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:53:13-67
+67            android:enabled="true"
+67-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:54:13-35
+68            android:exported="false"
+68-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:55:13-37
+69            android:foregroundServiceType="dataSync" />
+69-->C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\AndroidManifest.xml:56:13-53
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\0d2ea2ce076df1b8cbd9c1dafeceaf7a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\0d2ea2ce076df1b8cbd9c1dafeceaf7a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.mzkyzak.ddospro.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\0d2ea2ce076df1b8cbd9c1dafeceaf7a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\0d2ea2ce076df1b8cbd9c1dafeceaf7a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\0d2ea2ce076df1b8cbd9c1dafeceaf7a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\0d2ea2ce076df1b8cbd9c1dafeceaf7a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.10.2\transforms\0d2ea2ce076df1b8cbd9c1dafeceaf7a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\USER\.gradle\caches\8.10.2\transforms\9db686f87cfbe9549d30fdf3e508e12c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\USER\.gradle\caches\8.10.2\transforms\9db686f87cfbe9549d30fdf3e508e12c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\USER\.gradle\caches\8.10.2\transforms\9db686f87cfbe9549d30fdf3e508e12c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+81        </provider>
+82    </application>
+83
+84</manifest>

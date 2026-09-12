@@ -1,0 +1,31 @@
+com.mzkyzak.ddospro.app-constraintlayout-2.0.1-0 C:\Users\USER\.gradle\caches\8.10.2\transforms\0b7480903aeb42a43471cb8bf589d5de\transformed\constraintlayout-2.0.1\res
+com.mzkyzak.ddospro.app-jetified-emoji2-1.2.0-1 C:\Users\USER\.gradle\caches\8.10.2\transforms\0d2ea2ce076df1b8cbd9c1dafeceaf7a\transformed\jetified-emoji2-1.2.0\res
+com.mzkyzak.ddospro.app-jetified-startup-runtime-1.1.1-2 C:\Users\USER\.gradle\caches\8.10.2\transforms\124e970c73efea790f01da4b458aff74\transformed\jetified-startup-runtime-1.1.1\res
+com.mzkyzak.ddospro.app-material-1.9.0-3 C:\Users\USER\.gradle\caches\8.10.2\transforms\186c8d2668b419e22440cb1b6422d5fd\transformed\material-1.9.0\res
+com.mzkyzak.ddospro.app-cardview-1.0.0-4 C:\Users\USER\.gradle\caches\8.10.2\transforms\1cc4abbb6020346c56e06f2b3da0c7cf\transformed\cardview-1.0.0\res
+com.mzkyzak.ddospro.app-coordinatorlayout-1.1.0-5 C:\Users\USER\.gradle\caches\8.10.2\transforms\2f7207caa1cb7b4cc27e7e96e8555ec0\transformed\coordinatorlayout-1.1.0\res
+com.mzkyzak.ddospro.app-jetified-activity-1.6.0-6 C:\Users\USER\.gradle\caches\8.10.2\transforms\39b952343530230689961b4445780a73\transformed\jetified-activity-1.6.0\res
+com.mzkyzak.ddospro.app-fragment-1.3.6-7 C:\Users\USER\.gradle\caches\8.10.2\transforms\47ab79a2cff6fb333468f6afedb7fcb9\transformed\fragment-1.3.6\res
+com.mzkyzak.ddospro.app-jetified-appcompat-resources-1.6.1-8 C:\Users\USER\.gradle\caches\8.10.2\transforms\4997497ef49d13c176d20f4227f1a443\transformed\jetified-appcompat-resources-1.6.1\res
+com.mzkyzak.ddospro.app-lifecycle-runtime-2.5.1-9 C:\Users\USER\.gradle\caches\8.10.2\transforms\5b56c26bcda09d887d572c4bf96bdd59\transformed\lifecycle-runtime-2.5.1\res
+com.mzkyzak.ddospro.app-jetified-annotation-experimental-1.3.0-10 C:\Users\USER\.gradle\caches\8.10.2\transforms\6864f051c096835c833d40f1cacd8960\transformed\jetified-annotation-experimental-1.3.0\res
+com.mzkyzak.ddospro.app-lifecycle-livedata-core-2.5.1-11 C:\Users\USER\.gradle\caches\8.10.2\transforms\69db66dff9b00bb0dca6c9da7925095e\transformed\lifecycle-livedata-core-2.5.1\res
+com.mzkyzak.ddospro.app-core-1.9.0-12 C:\Users\USER\.gradle\caches\8.10.2\transforms\729a212c78e59069bfc70877f17893dc\transformed\core-1.9.0\res
+com.mzkyzak.ddospro.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-13 C:\Users\USER\.gradle\caches\8.10.2\transforms\80d6f26759f8750f68b7e49ccf94b97e\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.mzkyzak.ddospro.app-jetified-lifecycle-process-2.4.1-14 C:\Users\USER\.gradle\caches\8.10.2\transforms\9db686f87cfbe9549d30fdf3e508e12c\transformed\jetified-lifecycle-process-2.4.1\res
+com.mzkyzak.ddospro.app-jetified-core-ktx-1.9.0-15 C:\Users\USER\.gradle\caches\8.10.2\transforms\b0b12ea1cb054d9931ee66a8004c47c7\transformed\jetified-core-ktx-1.9.0\res
+com.mzkyzak.ddospro.app-transition-1.2.0-16 C:\Users\USER\.gradle\caches\8.10.2\transforms\b8662b7e233f8205a0176a2df8ae0de4\transformed\transition-1.2.0\res
+com.mzkyzak.ddospro.app-appcompat-1.6.1-17 C:\Users\USER\.gradle\caches\8.10.2\transforms\bf6e02fe29bffebff6c284f4a27b921d\transformed\appcompat-1.6.1\res
+com.mzkyzak.ddospro.app-jetified-savedstate-1.2.0-18 C:\Users\USER\.gradle\caches\8.10.2\transforms\d064ed07cac05fac353b744ba534b733\transformed\jetified-savedstate-1.2.0\res
+com.mzkyzak.ddospro.app-jetified-viewpager2-1.0.0-19 C:\Users\USER\.gradle\caches\8.10.2\transforms\d1512bea6a5fadca59e35aa01c30fbbb\transformed\jetified-viewpager2-1.0.0\res
+com.mzkyzak.ddospro.app-drawerlayout-1.1.1-20 C:\Users\USER\.gradle\caches\8.10.2\transforms\d8daac351f6c2e9c10c235b978d0aafc\transformed\drawerlayout-1.1.1\res
+com.mzkyzak.ddospro.app-lifecycle-viewmodel-2.5.1-21 C:\Users\USER\.gradle\caches\8.10.2\transforms\d96f7fb27d1a64e60a4e45ecddc02793\transformed\lifecycle-viewmodel-2.5.1\res
+com.mzkyzak.ddospro.app-recyclerview-1.1.0-22 C:\Users\USER\.gradle\caches\8.10.2\transforms\f299bea6cbee24e980eb6218fc151300\transformed\recyclerview-1.1.0\res
+com.mzkyzak.ddospro.app-jetified-emoji2-views-helper-1.2.0-23 C:\Users\USER\.gradle\caches\8.10.2\transforms\f38137e6705d775e037a60a7195f6d99\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.mzkyzak.ddospro.app-pngs-24 C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\build\generated\res\pngs\debug
+com.mzkyzak.ddospro.app-resValues-25 C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\build\generated\res\resValues\debug
+com.mzkyzak.ddospro.app-packageDebugResources-26 C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.mzkyzak.ddospro.app-packageDebugResources-27 C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.mzkyzak.ddospro.app-debug-28 C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.mzkyzak.ddospro.app-debug-29 C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\debug\res
+com.mzkyzak.ddospro.app-main-30 C:\Users\USER\Downloads\APP_ddos (2)\APP_ddos\app\src\main\res

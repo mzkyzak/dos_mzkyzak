@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#0a0a0a"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔥 DDOS PRO"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:fontFamily="monospace"
+        android:shadowColor="#FF0000"
+        android:shadowRadius="30"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi-Vektor • 2000 Thread • Misi 10 Jam"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="15dp" />
+
+    <!-- TARGET & METHOD -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginEnd="5dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#FF0000"
+            app:hintTextColor="#FF0000">
+            <EditText
+                android:id="@+id/etTarget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Target URL/IP"
+                android:textColor="#00FF00"
+                android:textColorHint="#660000"
+                android:fontFamily="monospace" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#FF0000"
+            app:hintTextColor="#FF0000">
+            <EditText
+                android:id="@+id/etMethod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Method"
+                android:text="BYPASS"
+                android:textColor="#00FF00"
+                android:textColorHint="#660000"
+                android:fontFamily="monospace" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <!-- THREAD & DURASI -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#FF0000"
+            app:hintTextColor="#FF0000">
+            <EditText
+                android:id="@+id/etThreads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Thread"
+                android:text="1500"
+                android:textColor="#00FF00"
+                android:textColorHint="#660000"
+                android:fontFamily="monospace"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#FF0000"
+            app:hintTextColor="#FF0000">
+            <EditText
+                android:id="@+id/etDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Durasi (detik)"
+                android:text="180"
+                android:textColor="#00FF00"
+                android:textColorHint="#660000"
+                android:fontFamily="monospace"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <!-- TOMBOL START / STOP -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:text="🔥 MULAI"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FF0000"
+            android:textColor="#FFFFFF"
+            android:fontFamily="monospace" />
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:text="⛔ BERHENTI"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="#333333"
+            android:textColor="#FFFFFF"
+            android:fontFamily="monospace"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <!-- TOMBOL SATURASI & STRESS HP -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/btnSaturate"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:text="📡 SATURASI"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FF8800"
+            android:textColor="#FFFFFF"
+            android:fontFamily="monospace" />
+        <Button
+            android:id="@+id/btnStressHp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:text="🔥 STRESS HP"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FF5500"
+            android:textColor="#FFFFFF"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <!-- MISI PERSISTEN 10 JAM -->
+    <Button
+        android:id="@+id/btnProfStress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🛡️ MISI PERSISTEN (10 JAM)"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnMHDDoS"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🌀 MISI MHDDoS (EXTERNAL)"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="#8A2BE2"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp" />
+
+    <!-- STATUS & CLOCK -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔴 SIAP"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:fontFamily="monospace"
+            android:layout_marginEnd="15dp" />
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚡ Kecepatan: 0/s"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/tvStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📡 Paket: 0"
+        android:textSize="16sp"
+        android:textColor="#00FF00"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_marginTop="5dp" />
+
+    <!-- FOOTER -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[💀] MZKYZAK — DDOS VERIFIED [💀]"
+        android:textSize="10sp"
+        android:textColor="#333333"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

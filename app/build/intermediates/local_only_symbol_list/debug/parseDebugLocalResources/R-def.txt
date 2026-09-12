@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+id btnMHDDoS
+id btnProfStress
+id btnSaturate
+id btnStart
+id btnStop
+id btnStressHp
+id etDuration
+id etMethod
+id etTarget
+id etThreads
+id tvMethod
+id tvStats
+id tvStatus
+id tvTimer
+layout activity_main
+string app_name
+style Theme.SentinelFlow
