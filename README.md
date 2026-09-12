@@ -1,6 +1,6 @@
 # 🔥 DOS ATTACK BY:MZKYZAK v5.0 — Framework
 
-**MZKYZAK Cyber Engine** adalah Serangan cyber attack/ujicoba testing dengan ekosistem audit keamanan dan stress testing terlengkap untuk Android. dan untuk serangan siber yang membuat situs web atau server menjadi down atau tidak bisa diakses oleh pengguna, dan untuk fitur = Menyatukan kekuatan framework **MHDDoS Python** dengan efisiensi **Java Native Apex Engine** untuk system utama agar android bisa berfungsi dengan dos.
+**MZKYZAK Cyber Engine** Aplikasi ini adalah Serangan cyber attack/ujicoba testing dengan ekosistem audit keamanan dan stress testing terlengkap untuk Android. dan untuk serangan siber yang membuat situs web atau server menjadi down atau tidak bisa diakses oleh pengguna, dan untuk fitur = Menyatukan kekuatan framework **MHDDoS Python** dengan efisiensi **Java Native Apex Engine** untuk system utama agar android bisa berfungsi dengan dos.
 
 ---
 
